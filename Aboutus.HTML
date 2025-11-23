@@ -43,6 +43,40 @@
         <a href="Gallery.HTML">Gallery</a>
         <a href="Contectus.HTML">Contectus</a>
     </div>
+    <section>
+        <img src="https://acfede29.aerocdn.com/image-factory/4c2774e06365b7c48be64734e5c20d45a80a30c3~668x799:upscale/images/products/1CMyX7ACAiqzZTMriLyLjM971FNKa6bbLMIwauN2.jpg"
+            class="myslides" style="height: 500px; width: 1000px;">
+        <img src="https://www.filmyvastra.com/wp-content/uploads/2019/06/Black-Wide-tshirt-without-hanger-Recovered-scaled.jpg"
+            class="myslides" style="height: 500px; width: 1000px;">
+        <img src="https://tse2.mm.bing.net/th/id/OIF.aNWWhERRqzxgy5Dk7kab0w?rs=1&pid=ImgDetMain&o=7&rm=3" class="myslides"
+            style="height: 500px; width: 1000px;">
+        <img src="https://i.etsystatic.com/26505185/c/2179/2179/228/228/il/ee079e/6893260233/il_800x800.6893260233_mjxy.jpg"
+            class="myslides" style="height: 500px; width: 1000px;">
+        <img src="https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-web-donut-19090.jpg&fm=jpg"
+            class="myslides" style="height: 500px; width: 1000px;">
+    </section>
+    <h2>We offer a wide range of facilities that make buying products easier, faster, and more convenient. They
+    provide detailed product descriptions, images, and customer reviews to help buyers make informed decisions. Many
+    platforms feature advanced search filters, allowing users to sort items by price, brand, size, or rating. Secure payment
+    options, including credit cards, digital wallets, and cash-on-delivery, ensure safe transactions. Additionally, features
+    like order tracking, easy return policies, and 24/7 customer support enhance the shopping experience. Some websites also
+    offer personalized recommendations, discounts, and loyalty programs, making online shopping both enjoyable and
+    cost-effective.</h2>
+    <script>
+        var myindex = 0
+        carousel()
+        function carousel() {
+            var i
+            var x = document.getElementsByClassName("myslides")
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none"
+            }
+            myindex++
+            if (myindex > x.length) { myindex = 1 }
+            x[myindex - 1].style.display = "block"
+            setTimeout(carousel, 3000)
+        }
+    </script>
 </body>
 
 </html>

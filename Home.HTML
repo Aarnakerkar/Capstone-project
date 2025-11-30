@@ -28,6 +28,25 @@
         .topnav a.active{
             background-color:blue;
         }
+        .footer{
+            position:fixed;
+            left:0;
+            bottom:0;
+            width:100%;
+            background-color:black;
+            color:white;
+            text-align:center;
+        }
+        #a{
+            text-align:center;
+            font-size:75px;
+            background-color:black;
+            color:white;
+        }
+        #b{
+            font-size:25px;
+            background:linear-gradient(lightblue,yellow);
+        }
     </style>
 </head>
 <body>
@@ -44,8 +63,8 @@
         <img src="https://i.etsystatic.com/26505185/c/2179/2179/228/228/il/ee079e/6893260233/il_800x800.6893260233_mjxy.jpg" class="myslides" style="height: 500px; width: 1000px;">
         <img src="https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-web-donut-19090.jpg&fm=jpg" class="myslides" style="height: 500px; width: 1000px;">
     </section>
-    <h1>The A shop</h1>
-    <p>
+    <h1 id="a">The A shop</h1>
+    <p id="b">
         <img src="https://i.pinimg.com/736x/eb/f2/28/ebf228d69accd3da134d152227e302d5.jpg" style="width:305px; height:270px;float:right;margin-left:15px;">
         Welcome to <b>The A shop</b>, where ideas meet innovation. We’re passionate about creating solutions that inspire,
         empower, and make life simpler. Whether you’re here to explore our services, discover our story, or connect with our
@@ -71,6 +90,15 @@
         lounging at home, heading to the gym, or making a fashion statement, the T-shirt remains a wardrobe essential that
         blends practicality with self-expression.
     </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer">
+        <p>@copy all rights and reserved by Aarna</p>
+    </div>
     <script>
         var myindex=0
         carousel()
